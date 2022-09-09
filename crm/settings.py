@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-may+xh%65@+agx^=%=f80uu08t!3aludzjo58+n0r8j!jtrckr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['mohammadho8.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -80,8 +80,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'AWSDatabase',
-        'USER': 'mohammadho8',
-        'PASSWORD': 'Mohammad1381',
+        'USER': '**********',
+        'PASSWORD': '********',
         'HOST': 'database-1.cbar8oimfdld.us-west-1.rds.amazonaws.com',
         'PORT': '5432'
     }
@@ -139,9 +139,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # S3 BUCKETS CONFIG
 
-AWS_ACCESS_KEY_ID = 'AKIATMQHB6NNNOSUNSSQ'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'smh.bucket'
+AWS_ACCESS_KEY_ID = '**********'
+AWS_SECRET_ACCESS_KEY = '************'
+AWS_STORAGE_BUCKET_NAME = '**********'
 
 # prevent overriding on a file with the same name
 AWS_S3_FILE_OVERWRITE = False
